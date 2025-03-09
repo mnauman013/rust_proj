@@ -48,3 +48,21 @@ Create an Operation enum instance with the parsed input values.
 Call the calculate function with the created Operation enum instance.
 Print the result to the console.
 Compile and run the program to test its functionality.
+
+
+# 3: Bank
+
+A simple basic banking system using Traits in Rust. The program will allow users to create accounts, deposit and withdraw money, and view their account balance.
+
+**Steps**
+
+Create a Trait called Account that defines the methods deposit, withdraw, and balance. These methods should take a mutable reference to self as an argument.
+Implement the Account Trait for a struct called BankAccount. The BankAccount struct should have the fields account_number, holder_name, and balance.
+In the implementation of the deposit method for BankAccount, add the deposit amount to the balance.
+In the implementation of the withdraw method for BankAccount, subtract the withdraw amount from the balance.
+In the implementation of the balance method for BankAccount, return the current balance.
+In the main function, create two BankAccount instances with different account numbers and holder names.
+Call the deposit method on one of the accounts, passing in a deposit amount.
+Call the withdraw method on the other account, passing in a withdraw amount.
+Call the balance method on both accounts and print the result to the console.
+Compile and run the program to ensure it works as expected.
