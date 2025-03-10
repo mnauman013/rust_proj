@@ -66,3 +66,21 @@ Call the deposit method on one of the accounts, passing in a deposit amount.
 Call the withdraw method on the other account, passing in a withdraw amount.
 Call the balance method on both accounts and print the result to the console.
 Compile and run the program to ensure it works as expected.
+
+# 4: Filter
+
+This Rust project implements a custom filtering function using a struct-based approach instead of closures. The program allows filtering elements from a collection (vector) based on a specified condition.
+
+**🔹 Features**
+Uses a struct (FilterCondition) to define the filter criteria.
+Implements a method (is_match) to check if an item meets the condition.
+Provides a function (custom_filter) that iterates over a collection and filters matching elements.
+Beginner-friendly implementation with clear, structured Rust code.
+**🔧 Usage**
+Modify the FilterCondition struct to filter integers, strings, or other types.
+Run the program to filter elements from a vector based on a chosen condition.
+**📌 Example Output:**
+Filtered numbers: [20, 20]
+This means the function successfully filtered all occurrences of 20 from the input vector.
+
+✅ Perfect for learning Rust structs, methods, and iteration! 🚀
