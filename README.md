@@ -84,3 +84,29 @@ Filtered numbers: [20, 20]
 This means the function successfully filtered all occurrences of 20 from the input vector.
 
 ✅ Perfect for learning Rust structs, methods, and iteration! 🚀
+
+
+# 5: Banking System with Error Handling (Bank_err) 🚀
+This Rust project is a simple banking system that allows users to deposit, withdraw, and check their balance while handling errors gracefully. It demonstrates Rust Traits, Structs, and the Result type for error handling.
+
+**🔹 Features**
+✅ Create Bank Accounts with unique account numbers and holder names.
+✅ Deposit Money with validation (no negative deposits).
+✅ Withdraw Money with validation (no overdrafts or negative withdrawals).
+✅ Error Handling using Result<(), String> for safe transactions.
+✅ Display Account Balance after transactions.
+
+**📌 How It Works**
+1️⃣ Create an account with an initial balance.
+2️⃣ Attempt deposits and withdrawals.
+3️⃣ Handle errors using match.
+4️⃣ Print the final balance after transactions.
+
+**💡 Tech Used**
+🦀 Rust (Traits, Structs, Pattern Matching, and Error Handling).
+
+🚀 Run the Project
+'''cargo run'''
+
+Enter deposit/withdraw amounts and see how the system manages transactions securely
+
