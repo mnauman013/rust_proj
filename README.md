@@ -89,24 +89,24 @@ This means the function successfully filtered all occurrences of 20 from the inp
 # 5: Banking System with Error Handling (Bank_err) 🚀
 This Rust project is a simple banking system that allows users to deposit, withdraw, and check their balance while handling errors gracefully. It demonstrates Rust Traits, Structs, and the Result type for error handling.
 
-**🔹 Features**
-✅ Create Bank Accounts with unique account numbers and holder names. \n
-✅ Deposit Money with validation (no negative deposits). \n
-✅ Withdraw Money with validation (no overdrafts or negative withdrawals). \n
-✅ Error Handling using Result<(), String> for safe transactions. \n
-✅ Display Account Balance after transactions. \n
+**🔹 Features**<br/>
+✅ Create Bank Accounts with unique account numbers and holder names.<br/> 
+✅ Deposit Money with validation (no negative deposits).<br/>
+✅ Withdraw Money with validation (no overdrafts or negative withdrawals).<br/>
+✅ Error Handling using Result<(), String> for safe transactions.<br/>
+✅ Display Account Balance after transactions.<br/>
 
-**📌 How It Works**
-1️⃣ Create an account with an initial balance. \n
-2️⃣ Attempt deposits and withdrawals. \n
-3️⃣ Handle errors using match. \n
-4️⃣ Print the final balance after transactions. \n
+**📌 How It Works**<br/>
+1️⃣ Create an account with an initial balance.<br/>
+2️⃣ Attempt deposits and withdrawals.<br/>
+3️⃣ Handle errors using match.<br/>
+4️⃣ Print the final balance after transactions.<br/>
 
-**💡 Tech Used**
-🦀 Rust (Traits, Structs, Pattern Matching, and Error Handling). \n
+**💡 Tech Used**<br/>
+🦀 Rust (Traits, Structs, Pattern Matching, and Error Handling).<br/>
 
-🚀 Run the Project
-'''cargo run''' \n
+🚀 Run the Project<br/>
+'''cargo run'''<br/>
 
 Enter deposit/withdraw amounts and see how the system manages transactions securely
 
